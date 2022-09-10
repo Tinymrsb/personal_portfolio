@@ -1,5 +1,8 @@
 :root {
   --primary-color: #94b49f;
+  --secondary-color: #CEE5D0;
+  --additnal-accent-color: #FCF8E8;
+  --primary-font-color: #FCF8E8;
   --headings-font-family: "Coustard-Regular", Times, serif;
 }
 
@@ -8,8 +11,30 @@
   src: url(/src/font/Coustard-Regular.ttf);
 }
 
-h1 {
-  color: var(--primary-color);
+#footer {
+  height: 50px;
+  background-color: var(--additnal-accent-color);
+}
+
+#introduction {
+  background-color: var(--primary-color);
+}
+
+#introduction h1 {
+  font-size: 66px;
+  color: var(--primary-font-color);
   font-family: var(--headings-font-family);
 }
 
+.btn {
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 12px 20px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}

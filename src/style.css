@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #94b49f;
+  --headings-font-family: "Coustard-Regular", Times, serif;
+}
+
+@font-face {
+  font-family: Coustard-Regular;
+  src: url(/src/font/Coustard-Regular.ttf);
+}
+
+h1 {
+  color: var(--primary-color);
+  font-family: var(--headings-font-family);
+}
+

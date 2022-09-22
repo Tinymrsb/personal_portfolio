@@ -4,6 +4,51 @@
   --additnal-accent-color: #FCF8E8;
   --primary-font-color: #FCF8E8;
   --headings-font-family: "Coustard-Regular", Times, serif;
+  --boxshadow-images:10px 10px 8px rgba(0, 0, 0, 0.2);
+  --boxshadow-buttons: 6px 6px 11px rgba(0, 0, 0, 0.2);
+}
+
+
+@media only screen and (min-width: 200px) {
+  html {
+    zoom: 0.7;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  html {
+    zoom: 0.7;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  html {
+    zoom: 0.7;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  html {
+    zoom: 0.7;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    zoom: 0.8;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  html {
+    zoom: 0.9;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  html {
+    zoom: 1;
+  }
 }
 
 @font-face {
@@ -14,6 +59,12 @@
 #footer {
   height: 50px;
   background-color: var(--additnal-accent-color);
+  font-size: 1.2em;
+}
+
+img {
+  box-shadow: var(--boxshadow-images);
+  max-height: 100%;
 }
 
 #introduction {
@@ -32,6 +83,7 @@
   padding: 12px 20px;
   background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  box-shadow: var(--boxshadow-buttons);
 }
 
 .btn:hover {

@@ -3,6 +3,7 @@
   --secondary-color: #CEE5D0;
   --additnal-accent-color: #FCF8E8;
   --primary-font-color: #FCF8E8;
+  --secondary-font-color: #0D335D;
   --headings-font-family: "Coustard-Regular", Times, serif;
   --boxshadow-images:10px 10px 8px rgba(0, 0, 0, 0.2);
   --boxshadow-buttons: 6px 6px 11px rgba(0, 0, 0, 0.2);
@@ -56,15 +57,26 @@
   src: url(/src/font/Coustard-Regular.ttf);
 }
 
-#footer {
-  height: 50px;
-  background-color: var(--additnal-accent-color);
-  font-size: 1.2em;
+a {
+  text-decoration: none;
+  color: var(--secondary-font-color);
+}
+
+h3 a:hover {
+text-decoration: underline;
+color: var(--secondary-font-color);
 }
 
 img {
   box-shadow: var(--boxshadow-images);
   max-height: 100%;
+}
+
+
+#footer {
+  height: 50px;
+  background-color: var(--additnal-accent-color);
+  font-size: 1.2em;
 }
 
 #introduction {

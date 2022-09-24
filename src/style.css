@@ -72,18 +72,19 @@ img {
   max-height: 100%;
 }
 
-
 #footer {
   height: 50px;
   background-color: var(--additnal-accent-color);
   font-size: 1.2em;
 }
 
-#introduction {
+#introduction,
+#about-me-div  {
   background-color: var(--primary-color);
 }
 
-#introduction h1 {
+#introduction h1,
+#about-me-header  {
   font-size: 66px;
   color: var(--primary-font-color);
   font-family: var(--headings-font-family);

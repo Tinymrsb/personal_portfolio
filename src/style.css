@@ -82,7 +82,11 @@ color: var(--secondary-font-color);
 #header-div  {
   background-color: var(--primary-color);
 }
-
+#connect-header {
+  font-size: 66px;
+  font-family: var(--headings-font-family);
+  color: var(--primary-color);
+}
 #header-text  {
   font-size: 66px;
   color: var(--primary-font-color);

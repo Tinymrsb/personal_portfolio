@@ -67,10 +67,10 @@ text-decoration: underline;
 color: var(--secondary-font-color);
 }
 
-img {
+/* img {
   box-shadow: var(--boxshadow-images);
   max-height: 100%;
-}
+} */
 
 #footer {
   height: 50px;
@@ -79,15 +79,18 @@ img {
 }
 
 #introduction,
-#about-me-div  {
+#header-div  {
   background-color: var(--primary-color);
 }
 
-#introduction h1,
-#about-me-header  {
+#header-text  {
   font-size: 66px;
   color: var(--primary-font-color);
   font-family: var(--headings-font-family);
+}
+
+#proof-of-work-screenshot {
+  max-height: 18rem;
 }
 
 .btn {

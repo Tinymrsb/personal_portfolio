@@ -118,3 +118,27 @@ footer {
   color: var(--primary-color);
   font-size: smaller;
 }
+
+/* contact Page Buttons */
+.myButton {
+	box-shadow: 0px 10px 14px -7px #94b49f;
+	background:linear-gradient(to bottom, #94b49f 5%, #cee5d0 100%);
+	background-color:#94b49f;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:18px 33px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #cee5d0 5%, #94b49f 100%);
+	background-color:#cee5d0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

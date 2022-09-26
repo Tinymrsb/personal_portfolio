@@ -61,16 +61,22 @@ a {
   color: var(--secondary-font-color);
 }
 
-h3 a:hover {
-  text-decoration: underline;
-  color: var(--secondary-font-color);
-}
-
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+  color: var(--secondary-font-color);
+}
+
+#connect-header {
+  font-size: 66px;
+  font-family: var(--headings-font-family);
+  color: var(--primary-color);
 }
 
 #footer {
@@ -79,37 +85,19 @@ footer {
   font-size: 1.2em;
 }
 
-#introduction,
-#header-div {
-  background-color: var(--primary-color);
-}
-#connect-header {
-  font-size: 66px;
-  font-family: var(--headings-font-family);
-  color: var(--primary-color);
-}
 #header-text {
   font-size: 66px;
   color: var(--primary-font-color);
   font-family: var(--headings-font-family);
 }
 
+#introduction,
+#header-div {
+  background-color: var(--primary-color);
+}
+
 #proof-of-work-screenshot {
   max-height: 18rem;
-}
-
-.btn {
-  border-radius: 4px;
-  font-size: 18px;
-  padding: 12px 20px;
-  background-color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  box-shadow: var(--boxshadow-buttons);
-}
-
-.btn:hover {
-  background-color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
 }
 
 .lets-connect {
@@ -137,6 +125,7 @@ footer {
 .myButton:hover {
 	background:linear-gradient(to bottom, #cee5d0 5%, #94b49f 100%);
 	background-color:#cee5d0;
+  color: var(--secondary-font-color);
 }
 .myButton:active {
 	position:relative;

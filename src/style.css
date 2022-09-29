@@ -9,7 +9,7 @@
   --boxshadow-buttons: 6px 6px 11px rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (min-width: 200px) {
+/* @media only screen and (min-width: 200px) {
   html {
     zoom: 0.7;
   }
@@ -49,7 +49,7 @@
   html {
     zoom: 1;
   }
-}
+} */
 
 @font-face {
   font-family: Coustard-Regular;
@@ -68,25 +68,29 @@ footer {
   width: 100%;
 }
 
+footer p {
+  font-size: 0.9rem;
+}
+
 h3 a:hover {
   text-decoration: underline;
   color: var(--secondary-font-color);
 }
 
 #connect-header {
-  font-size: 66px;
+  font-size: 50px;
   font-family: var(--headings-font-family);
   color: var(--primary-color);
 }
 
 #footer {
-  height: 3.2rem;
+  height: 2rem;
   background-color: var(--additnal-accent-color);
   font-size: 1.2em;
 }
 
 #header-text {
-  font-size: 66px;
+  font-size: 60px;
   color: var(--primary-font-color);
   font-family: var(--headings-font-family);
 }
@@ -106,28 +110,31 @@ h3 a:hover {
   color: var(--primary-color);
   font-size: smaller;
 }
+.thanks {
+  font-family: var(--headings-font-family);
+}
 
 /* contact Page Buttons */
 .myButton {
-	box-shadow: 0px 10px 14px -7px #94b49f;
-	background:linear-gradient(to bottom, #94b49f 5%, #cee5d0 100%);
-	background-color:#94b49f;
-	border-radius:8px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:25px;
-	font-weight:bold;
-	padding:18px 33px;
-	text-decoration:none;
+  box-shadow: 0px 10px 14px -7px #94b49f;
+  background: linear-gradient(to bottom, #94b49f 5%, #cee5d0 100%);
+  background-color: #94b49f;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 18px 33px;
+  text-decoration: none;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #cee5d0 5%, #94b49f 100%);
-	background-color:#cee5d0;
+  background: linear-gradient(to bottom, #cee5d0 5%, #94b49f 100%);
+  background-color: #cee5d0;
   color: var(--secondary-font-color);
 }
 .myButton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }

@@ -95,6 +95,10 @@ h3 a:hover {
   font-family: var(--headings-font-family);
 }
 
+#home-blog-image {
+  max-height: 18rem;
+}
+
 #introduction,
 #header-div {
   background-color: var(--primary-color);
